@@ -5,10 +5,11 @@
 ## **1.Shopping Cart**
 
 **Shopping Cart diperuntukan untuk user untuk berbelanja produk sesuai dengan yang ada di dalam stok
+
 Fitur :** 
-## **1.Mencetak Struk**
+### **1.Mencetak Struk**
 	
-## **2.Dashboard Shopping Cart** 
+### **2.Dashboard Shopping Cart** 
 	
 **Dashboar Admin diperutukan untuk Admin Stok Gudang dengan fitur**
 ### **1.READ :** 
