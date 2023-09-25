@@ -748,11 +748,11 @@ def mengupdateStokGudang():
                         # Mengecek apakah inputan user hanya berupa huruf
                         if new_nama.isalpha():
                             # Mengecek apakah nama barang sama dengan nama yang sudah ada pada stok
-                            if any(new_kategori == data[1] for data in stok.values()):
+                            if any(new_nama == data[1] for data in stok.values()):
                                 print("Nama barang tidak boleh sama yang ada pada stok")
                                 continue
                             # Mengecek apakah nama barang != nama kategori yang ada pada stok
-                            elif any(new_kategori == data[0] for data in stok.values()):
+                            elif any(new_nama == data[0] for data in stok.values()):
                                 print(
                                     "Nama barang tidak boleh sama dengan nama kategori"
                                 )
